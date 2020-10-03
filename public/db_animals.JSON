@@ -83,5 +83,16 @@
         "eye":"眼睛",
         "mouth":"嘴巴",
         "leg":"腿"
+    },
+    "chipmunk": {
+        "tail":"尾巴",
+        "claw":"爪子",
+        "back":"背部",
+        "feet": "脚",
+        "ear":"耳朵",
+        "eye":"眼睛",
+        "teeth": "牙齿",
+        "mouth":"嘴巴",
+        "belly":"腹部"
     }
 }
