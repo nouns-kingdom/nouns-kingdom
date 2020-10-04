@@ -23,5 +23,13 @@
         "stem": "茎",
         "scales": "蘑菇菌屑",
         "volva": "菌托"
+    },
+    "pumpkin": {
+        "stem":"茎",
+        "leaf":"叶子",
+        "vine": "南瓜藤",
+        "skin": "南瓜皮",
+        "pulp": "纤维",
+        "flesh": "果肉"
     }
 }

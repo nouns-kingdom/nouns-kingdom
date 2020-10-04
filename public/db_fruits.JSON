@@ -28,5 +28,11 @@
         "mesocarp":"中果皮",
         "exocarp":"外果皮",
         "seed coat": "种壳"
+    },
+    "watermelon": {
+        "seed": "西瓜子",
+        "flesh":"果肉",
+        "skin": "西瓜皮",
+        "rind": "外果皮"
     }
 }
