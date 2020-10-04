@@ -30,9 +30,9 @@
         "seed coat": "种壳"
     },
     "watermelon": {
-        "seed": "西瓜子",
-        "flesh":"果肉",
-        "skin": "西瓜皮",
+        "seed": "瓜籽",
+        "flesh":"瓜瓤",
+        "skin": "瓜皮",
         "rind": "外果皮"
     }
 }
