@@ -18,5 +18,13 @@
         "tire": "车轮",
         "pedal": "脚蹬",
         "rear rack": "行李架"
+    },
+    "airplane": {
+        "fin": "垂直尾翼",
+        "tailplane": "横尾翼",
+        "wing": "机翼",
+        "cockpit": "驾驶室",
+        "nose": "机鼻",
+        "jet engine": "喷射发动机"
     }
 }
