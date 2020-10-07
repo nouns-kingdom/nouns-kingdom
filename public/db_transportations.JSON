@@ -26,5 +26,13 @@
         "cockpit": "驾驶室",
         "nose": "机鼻",
         "jet engine": "喷射发动机"
+    },
+    "helicopter": {
+        "main rotor": "主旋翼",
+        "tail rotor": "尾旋翼",
+        "tail room": "尾桁架",
+        "drive shaft": "驱动轴",
+        "cockpit": "驾驶室",
+        "landing wheels": "起落轮"
     }
 }
