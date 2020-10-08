@@ -1,0 +1,11 @@
+{
+    "hand": {
+        "thumb": "拇指",
+        "index finger": "食指",
+        "middle finger": "中指",
+        "ring finger": "无名指",
+        "little finger": "小指",
+        "palm": "手掌",
+        "wrist": "手腕"
+    }
+}
