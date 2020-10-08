@@ -94,5 +94,15 @@
         "tooth": "牙齿",
         "mouth":"嘴巴",
         "belly":"腹部"
+    },
+    "owl": {
+        "ear tuft": "耳簇",
+        "eye": "眼睛",
+        "head": "头",
+        "beak": "鸟嘴",
+        "feather": "羽毛",
+        "wing": "翅膀",
+        "foot": "脚"
+
     }
 }
