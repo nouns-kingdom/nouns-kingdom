@@ -1,3 +1,20 @@
 {
-    
+    "winter clothing": {
+        "beanies": "无檐帽",
+        "sweaters": "毛衣",
+        "gloves": "手套",
+        "jeans": "牛仔裤",
+        "fleece jacket": "羊毛夹克",
+        "mittens": "连指手套",
+        "scarf": "围巾",
+        "socks": "袜子",
+        "french coat(women)": "法式大衣（女）",
+        "jacket": "夹克",
+        "long coat": "长款大衣",
+        "long-sleeve-top": "长袖上衣",
+        "boots": "靴子",
+        "earmuffs": "耳罩",
+        "cardigan": "开襟衫",
+        "frech coat(men)": "法式外套（男）"
+    }
 }

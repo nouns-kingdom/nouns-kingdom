@@ -16,5 +16,11 @@
         "apron": "裙摆",
         "front leg": "前腿",
         "rear leg": "后退"
+    },
+    "table": {
+        "top": "桌面",
+        "left front leg": "左前腿",
+        "right front leg": "有前腿",
+        "box apron": "桌裙摆"
     }
 }
