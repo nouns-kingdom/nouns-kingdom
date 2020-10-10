@@ -52,5 +52,12 @@
         "bacon": "培根",
         "butter": "黄油",
         "nut butters": "坚果酱"
+    },
+    "sushi": {
+        "shrimp": "虾",
+        "nori sheet": "紫菜片",
+        "salmon": "三文鱼",
+        "salmon roe": "三文鱼子",
+        "rice": "米"
     }
 }
