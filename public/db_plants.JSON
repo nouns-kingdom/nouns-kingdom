@@ -19,5 +19,11 @@
         "panicle": "稻穗",
         "leaves": "叶子",
         "stem": "稻杆"
+    },
+    "soybean": {
+        "shell": "壳",
+        "soybean": "黄豆/大豆",
+        "edamame": "毛豆",
+        "growth stages": "生长阶段"
     }
 }
