@@ -1,3 +1,8 @@
 {
-    
+    "pan": {
+        "handle": "把手",
+        "rim": "边缘",
+        "cookware surface": "炊具表面",
+        "sides": "侧面"
+    }
 }
