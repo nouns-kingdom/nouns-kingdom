@@ -11,5 +11,10 @@
         "right button": "右键",
         "left button": "左键",
         "mouse wire": "鼠标线"
+    },
+    "printer": {
+        "printer cover": "外壳",
+        "paper support": "送纸器",
+        "output tray": "出纸器"
     }
 }
