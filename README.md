@@ -88,5 +88,10 @@ I use windows 10, and install GIMP to add words to a picture.
 when you create a new image, choose template: 1280 * 720 px. Font size: 38px.
 ![Text](./src/assets/readme_gimp.png)
 
+how to change image size: drag and drop the image in the new created template, shift + s
+![Text](./src/assets/readme_resize.png)
+
+add new layer and add all words and lines in the new added layer.
+
 
 Please also keep a copy of the file as .xcf format, so you can update the details later. (in case you find any typo in the png file, you can update it easily in .xcf).
