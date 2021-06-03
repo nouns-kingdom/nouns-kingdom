@@ -112,5 +112,33 @@
         "wing":"翅膀",
         "claws":"爪子",
         "tail": "尾巴"
+    },
+    "elephant": {
+        "head":"脑袋",
+        "eye":"眼睛",
+        "ear":"耳朵",
+        "trunk": "鼻子",
+        "tail":"尾巴",
+        "leg":"腿",
+        "foot": "蹄子"
+    },
+    "giraffe": {
+        "horn":"角",
+        "head":"头",
+        "ear":"耳朵",
+        "nose":"鼻子",
+        "mouth":"嘴巴",
+        "neck":"脖子",
+        "tail":"尾巴",
+        "leg":"腿",
+        "hoof":"蹄子"
+    },
+    "walrus": {
+        "eye":"眼睛",
+        "nose":"鼻子",
+        "mustache": "胡须",
+        "tusk": "海象牙",
+        "flipper": "鳍",
+        "hind flipper": "后鳍"
     }
 }
