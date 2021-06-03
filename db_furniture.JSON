@@ -1,0 +1,26 @@
+{
+    "bed": {
+        "headboard": "床头板",
+        "blanket": "毯子",
+        "pillow": "枕头",
+        "mattress": "床垫",
+        "mattress cover": "床垫套",
+        "headboard leg": "床头板腿",
+        "front leg": "前腿"
+    },
+    "chair": {
+        "top rail": "上横栏",
+        "ear": "耳朵",
+        "back": "椅背",
+        "seat": "座位",
+        "apron": "裙摆",
+        "front leg": "前腿",
+        "rear leg": "后退"
+    },
+    "table": {
+        "top": "桌面",
+        "left front leg": "左前腿",
+        "right front leg": "有前腿",
+        "box apron": "桌裙摆"
+    }
+}

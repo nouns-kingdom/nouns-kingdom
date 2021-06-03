@@ -1,0 +1,31 @@
+{
+    "cup": {
+        "lid": "杯盖",
+        "cup": "杯子",
+        "sleeve": "杯套",
+        "coffee beans": "咖啡豆"
+    },
+    "tea cup": {
+        "cup": "杯子",
+        "handler": "把手",
+        "leaves": "茶叶",
+        "saucer": "茶托"
+    },
+    "teapot": {
+        "knob": "球形把手",
+        "lid": "壶盖",
+        "handle": "茶壶把手",
+        "mouth": "壶嘴",
+        "teacup": "茶杯",
+        "belly": "壶身",
+        "base": "底座",
+        "spout": "管口"
+    },
+    "bubble tea": {
+        "fat straw": "粗吸管",
+        "plastic cover": "塑料盖",
+        "tea mixed with cream": "奶茶",
+        "container": "杯子",
+        "tapioca pearls": "木薯粉珍珠"
+    }
+}

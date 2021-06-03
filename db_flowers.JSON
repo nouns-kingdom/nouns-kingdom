@@ -1,0 +1,14 @@
+{
+    "sunflower": {
+        "petals": "花瓣",
+        "stem": "茎",
+        "seeds": "种子",
+        "leaves": "叶子"
+    },
+    "rose": {
+        "flower": "花",
+        "bud": "花蕾",
+        "stem": "茎",
+        "leaf": "绿叶"
+    }
+}
