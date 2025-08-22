@@ -1,0 +1,63 @@
+{
+    "pizza": {
+        "veggies": "蔬菜",
+        "cheese": "芝士",
+        "sauce": "调味汁",
+        "mushroom": "蘑菇",
+        "olive": "橄榄",
+        "pepperoni": "腊香肠"
+    },
+    "hotdog": {
+        "tomato": "西红柿",
+        "sauce": "调料",
+        "bun": "面包",
+        "pickle": "酸黄瓜",
+        "sausage": "香肠"
+    },
+    "burger": {
+        "bun":"面包",
+        "lettuce": "生菜",
+        "onion": "洋葱",
+        "cheese": "芝士",
+        "cucumber": "黄瓜",
+        "meat": "肉饼"
+    },
+    "sandwich": {
+        "bread": "面包",
+        "lettuce": "生菜",
+        "tomato": "西红柿",
+        "beef": "牛肉"
+    },
+    "pancake": {
+        "butter": "黄油",
+        "honey": "蜂蜜",
+        "pancake": "薄饼",
+        "plate": "盘子"
+    },
+    "pancake toppings": {
+        "fruits": "水果",
+        "yoghurt": "酸奶",
+        "custard": "蛋奶糊",
+        "syrups": "糖浆剂",
+        "honey": "蜂蜜",
+        "jam": "果酱",
+        "Nutella": "巧克力榛子酱",
+        "ice cream": "冰淇淋",
+        "chocolate bars": "巧克力块",
+        "cinnamon": "肉桂",
+        "Lemon & sugar": "柠檬和糖",
+        "icing sugar": "糖粉",
+        "creamy mushroom sauce": "奶油蘑菇酱",
+        "ham & cheese": "火腿和芝士",
+        "bacon": "培根",
+        "butter": "黄油",
+        "nut butters": "坚果酱"
+    },
+    "sushi": {
+        "shrimp": "虾",
+        "nori sheet": "紫菜片",
+        "salmon": "三文鱼",
+        "salmon roe": "三文鱼子",
+        "rice": "米"
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "tiger": {
+        "tail": "尾巴",
+        "nose": "鼻子",
+        "ear": "耳朵",
+        "fur": "皮毛",
+        "leg": "腿",
+        "claw": "爪子",
+        "paw": "爪子",
+        "whisker": "须",
+        "eye": "眼睛"
+    },
+    "camel": {
+        "ear": "耳朵",
+        "eye": "眼睛",
+        "nose": "鼻子",
+        "mouth": "嘴巴",
+        "neck": "脖子",
+        "leg": "腿",
+        "hoof": "蹄子",
+        "tail": "尾巴",
+        "body": "身体",
+        "hump": "驼峰"
+    },
+    "cat": {
+        "ear": "耳朵",
+        "eye": "眼睛",
+        "whiskers": "胡须",
+        "nose": "鼻子",
+        "leg": "腿",
+        "mouth": "嘴巴",
+        "neck": "脖子",
+        "tail": "尾巴"
+    },
+    "dog": {
+        "ear":"耳朵",
+        "eye":"眼睛",
+        "nose":"鼻子",
+        "foreleg": "前腿",
+        "toes": "脚趾",
+        "tail":"尾巴",
+        "neck":"脖子",
+        "cheek": "面颊"
+    },
+    "goat": {
+        "horn": "羊角",
+        "ear":"耳朵",
+        "nose":"鼻子",
+        "mouth":"嘴巴",
+        "leg":"腿",
+        "tail":"尾巴",
+        "body":"身体",
+        "hoof":"蹄子"
+    },
+    "fish": {
+        "scales": "鱼鳞",
+        "eyes": "鱼眼",
+        "nostril": "鼻孔",
+        "mouth": "嘴巴",
+        "gill": "鳃",
+        "dorsal fin": "背鳍",
+        "caudal fin": "尾鳍",
+        "pelvic fin": "腹鳍",
+        "pectoral fin": "胸鳍"
+    },
+    "donkey": {
+        "ear": "耳朵",
+        "eye": "眼睛",
+        "nostril":"鼻孔",
+        "mouth":"嘴巴",
+        "leg":"腿",
+        "mane": "鬃毛",
+        "back": "背部",
+        "tail":"尾巴",
+        "belly": "腹部",
+        "hoof":"蹄子"
+    },
+    "panda": {
+        "head": "头",
+        "nose":"鼻子",
+        "belly":"腹部",
+        "ear":"耳朵",
+        "eye":"眼睛",
+        "mouth":"嘴巴",
+        "leg":"腿"
+    },
+    "chipmunk": {
+        "tail":"尾巴",
+        "claw":"爪子",
+        "back":"背部",
+        "foot": "脚",
+        "ear":"耳朵",
+        "eye":"眼睛",
+        "tooth": "牙齿",
+        "mouth":"嘴巴",
+        "belly":"腹部"
+    },
+    "owl": {
+        "ear tuft": "耳簇",
+        "eye": "眼睛",
+        "head": "头",
+        "beak": "鸟嘴",
+        "feather": "羽毛",
+        "wing": "翅膀",
+        "foot": "脚"
+
+    },
+    "vulture": {
+        "head": "头",
+        "eye":"眼睛",
+        "beak":"鸟嘴/喙",
+        "wing":"翅膀",
+        "claws":"爪子",
+        "tail": "尾巴"
+    },
+    "elephant": {
+        "head":"脑袋",
+        "eye":"眼睛",
+        "ear":"耳朵",
+        "trunk": "鼻子",
+        "tail":"尾巴",
+        "leg":"腿",
+        "foot": "蹄子"
+    },
+    "giraffe": {
+        "horn":"角",
+        "head":"头",
+        "ear":"耳朵",
+        "nose":"鼻子",
+        "mouth":"嘴巴",
+        "neck":"脖子",
+        "tail":"尾巴",
+        "leg":"腿",
+        "hoof":"蹄子"
+    },
+    "walrus": {
+        "eye":"眼睛",
+        "nose":"鼻子",
+        "mustache": "胡须",
+        "tusk": "海象牙",
+        "flipper": "鳍",
+        "hind flipper": "后鳍"
+    }
+}
