@@ -41,7 +41,7 @@ function Word() {
     }
   };
   // const goBack = () => navigate(-1);
-
+  // console.log(`/assets/${category}_${id}_with_words.png`);
   return (
     <FluentProvider>
       <div style={{ margin: "1em 0 2em 15%", display: "flex", alignItems: "center" }}>
@@ -60,7 +60,7 @@ function Word() {
         <Button onClick={goPrev} disabled={currentIndex <= 0} style={{ marginRight: "1em" }}>
           ←
         </Button>
-        {isLoading ? <div>Loading...</div> : <img src={`/assets/${category}_${id}_with_words.png`} alt={id} />}
+        {isLoading ? <div>Loading...</div> : <img src={`${process.env.PUBLIC_URL}/assets/${category}_${id}_with_words.png`} alt={id} />}
         <Button onClick={goNext} disabled={currentIndex >= cardList.length - 1} style={{ marginLeft: "1em" }}>
           →
         </Button>

@@ -23,7 +23,7 @@ const Category = () => {
   }, [category]);
 
   // Match Vue logic: images are in /assets/ and named as <category>_<word>.png
-  const getImgUrl = (name) => `/assets/${category}_${name}.png`;
+  const getImgUrl = (name) => `${process.env.PUBLIC_URL}/assets/${category}_${name}.png`;
   const onCardChange = (word) => navigate(`/${category}/${word}`);
 
   return (

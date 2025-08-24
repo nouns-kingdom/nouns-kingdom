@@ -11,6 +11,7 @@ const Home = () => {
     setIsLoading(true);
     NKHttpSvc.Categories()
       .then((res) => res.json())
+      // .then((res) => console.log(res.json()))
       .then((data) => {
         setCategories(data.category);
         setIsLoading(false);
@@ -21,7 +22,7 @@ const Home = () => {
       });
   }, []);
 
-  const getImgUrl = (name) => `/assets/category/${name}.png`;
+  const getImgUrl = (name) => `${process.env.PUBLIC_URL}/assets/category/${name}.png`;
   const onCardChange = (category) => navigate(`/${category}`);
 
   return (
@@ -31,7 +32,7 @@ const Home = () => {
       ) : categories.length > 0 ? (
         categories.map((category) => (
           <div key={category} style={{ margin: "1em" }}>
-            {/* <div>{getImgUrl(category)}</div> */}
+            <div>{getImgUrl(category)}</div>
             <img src={getImgUrl(category)} alt={category} className='image-container' style={{ height: "300px", width: "280px", cursor: "pointer" }} onClick={() => onCardChange(category)} />
             <div className='card-font-container' style={{ fontWeight: 600, fontSize: "2vw", cursor: "pointer" }} onClick={() => onCardChange(category)}>
               {category}
