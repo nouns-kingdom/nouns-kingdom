@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nouns-kingdom/static/css/main.f37f4576.css",
+    "main.js": "/nouns-kingdom/static/js/main.69964da9.js",
+    "index.html": "/nouns-kingdom/index.html",
+    "main.f37f4576.css.map": "/nouns-kingdom/static/css/main.f37f4576.css.map",
+    "main.69964da9.js.map": "/nouns-kingdom/static/js/main.69964da9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f37f4576.css",
+    "static/js/main.69964da9.js"
+  ]
+}
