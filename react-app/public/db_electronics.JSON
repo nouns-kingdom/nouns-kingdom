@@ -1,0 +1,24 @@
+{
+    "laptop": {
+        "camera": "摄像头",
+        "screen": "屏幕",
+        "keyboard": "键盘",
+        "touchpad": "触控板",
+        "ports": "接口"
+    },
+    "mouse": {
+        "scroll wheel": "滚动轮",
+        "right button": "右键",
+        "left button": "左键",
+        "mouse wire": "鼠标线"
+    },
+    "printer": {
+        "printer cover": "外壳",
+        "paper support": "送纸器",
+        "output tray": "出纸器"
+    },
+    "webcam": {
+        "lens": "镜头",
+        "clip": "夹子"
+    }
+}
