@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./views/Home";
 import Category from "./views/Category";
@@ -21,9 +21,9 @@ function About() {
   );
 }
 
-// function NotFound() {
-//   return <h2>404 - Not Found</h2>;
-// }
+function NotFound() {
+  return <h2>404 - Not Found</h2>;
+}
 
 function App() {
   return (
@@ -40,12 +40,10 @@ function App() {
       </div>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/nouns-kingdom' element={<Home />} />
         <Route path=':category' element={<Category />} />
         <Route path=':category/:id' element={<Word />} />
         <Route path='about' element={<About />} />
-        {/* <Route path='*' element={<NotFound />} /> */}
-        <Route path='*' element={<Navigate to='/nouns-kingdom' replace />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </Router>
   );

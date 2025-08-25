@@ -15,7 +15,7 @@ const Home = () => {
       .then((data) => {
         setCategories(data.category);
         setIsLoading(false);
-        console.log("home data", data);
+        // console.log("home data", data);
       })
       .catch(() => {
         setIsLoading(false);
