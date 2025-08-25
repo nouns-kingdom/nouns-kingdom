@@ -2,7 +2,7 @@
   "name": "nouns-kingdom-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nouns-kingdom.github.io",
+  "homepage": "https://nouns-kingdom.github.io/nouns-kingdom",
   "dependencies": {
     "@fluentui/react-components": "^9.0.0",
     "react": "^18.0.0",
