@@ -40,6 +40,7 @@ function App() {
       </div>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/nouns-kingdom' element={<Home />} />
         <Route path=':category' element={<Category />} />
         <Route path=':category/:id' element={<Word />} />
         <Route path='about' element={<About />} />
