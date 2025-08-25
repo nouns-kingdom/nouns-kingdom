@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
 import Home from "./views/Home";
 import Category from "./views/Category";
@@ -21,9 +21,9 @@ function About() {
   );
 }
 
-function NotFound() {
-  return <h2>404 - Not Found</h2>;
-}
+// function NotFound() {
+//   return <h2>404 - Not Found</h2>;
+// }
 
 function App() {
   return (
