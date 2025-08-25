@@ -6,13 +6,11 @@ class HttpServiceClient {
 
   WordsOfCard(category, card) {
     const dictionay = process.env.PUBLIC_URL + "/db_" + category + ".JSON";
-    console.log("dictionay", dictionay, card);
-    return (
-      fetch(dictionay)
-        // .then((res) => res.json())
-        // .then((data) => data[card]);
-        .then((res) => console.log(res))
-    );
+    // console.log("dictionay", dictionay, card);
+    return fetch(dictionay)
+      .then((res) => res.json())
+      .then((data) => data[card]);
+    // .then((res) => console.log(res))
     // .then((data) => {
     //   console.log("Available keys:", Object.keys(data));
     //   console.log("Requested card:", card);
