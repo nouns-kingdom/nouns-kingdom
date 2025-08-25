@@ -44,7 +44,8 @@ function App() {
         <Route path=':category' element={<Category />} />
         <Route path=':category/:id' element={<Word />} />
         <Route path='about' element={<About />} />
-        <Route path='*' element={<NotFound />} />
+        {/* <Route path='*' element={<NotFound />} /> */}
+        <Route path='*' element={<Navigate to='/nouns-kingdom' replace />} />
       </Routes>
     </Router>
   );
