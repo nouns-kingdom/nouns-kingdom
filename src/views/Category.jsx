@@ -29,12 +29,6 @@ const Category = () => {
   return (
     <>
       <div style={{ margin: "1em 0 2em 15%", display: "flex", justifyContent: "flex-start" }}>
-        {/* <Breadcrumb dividerType='chevron'>
-          <BreadcrumbItem onClick={() => navigate("/")} style={{ cursor: "pointer" }}>
-            Home
-          </BreadcrumbItem>
-          <BreadcrumbItem>{category}</BreadcrumbItem>
-        </Breadcrumb> */}
         <div style={{ margin: "1em 0 2em 0", display: "flex", alignItems: "center" }}>
           <span style={{ cursor: "pointer", color: "#0078d4", fontWeight: "bold" }} onClick={() => navigate("/")}>
             Home
@@ -50,7 +44,7 @@ const Category = () => {
           wordsInCategory.map((word) => (
             <div key={word} style={{ margin: "1em" }}>
               <img src={getImgUrl(word)} alt={word} className='image-container' style={{ height: "300px", width: "280px", cursor: "pointer" }} onClick={() => onCardChange(word)} />
-              <div className='card-font-container' style={{ fontWeight: 600, fontSize: "2vw", cursor: "pointer" }} onClick={() => onCardChange(word)}>
+              <div className='card-font-container' style={{ fontWeight: 600, fontSize: "2vw", cursor: "pointer", textAlign: "center" }} onClick={() => onCardChange(word)}>
                 {word}
               </div>
             </div>
