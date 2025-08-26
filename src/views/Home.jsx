@@ -31,7 +31,7 @@ const Home = () => {
         <div>Loading...</div>
       ) : categories.length > 0 ? (
         categories.map((category) => (
-          <div key={category} style={{ margin: "1em" }}>
+          <div key={category} style={{ margin: "1em", display: "flex", flexDirection: "column", alignItems: "center", gap: "0.5em" }}>
             {/* <div>{getImgUrl(category)}</div> */}
             <img src={getImgUrl(category)} alt={category} className='image-container' style={{ height: "300px", width: "280px", cursor: "pointer" }} onClick={() => onCardChange(category)} />
             <div className='card-font-container' style={{ fontWeight: 600, fontSize: "2vw", cursor: "pointer", textAlign: "center" }} onClick={() => onCardChange(category)}>

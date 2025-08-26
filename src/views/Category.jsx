@@ -42,7 +42,7 @@ const Category = () => {
           <div>Loading...</div>
         ) : wordsInCategory.length > 0 ? (
           wordsInCategory.map((word) => (
-            <div key={word} style={{ margin: "1em" }}>
+            <div key={word} style={{ margin: "1em", display: "flex", flexDirection: "column", alignItems: "center", gap: "0.5em" }}>
               <img src={getImgUrl(word)} alt={word} className='image-container' style={{ height: "300px", width: "280px", cursor: "pointer" }} onClick={() => onCardChange(word)} />
               <div className='card-font-container' style={{ fontWeight: 600, fontSize: "2vw", cursor: "pointer", textAlign: "center" }} onClick={() => onCardChange(word)}>
                 {word}
