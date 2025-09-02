@@ -1,5 +1,6 @@
 import React from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { FluentProvider, webLightTheme } from "@fluentui/react-components";
 
 import Home from "./views/Home";
 import Category from "./views/Category";
@@ -27,25 +28,27 @@ function NotFound() {
 
 function App() {
   return (
-    <Router>
-      <div style={{ background: "#f5f5f5", padding: "1em 0", marginBottom: "2em", boxShadow: "0 2px 4px rgba(0,0,0,0.05)" }}>
-        <nav style={{ display: "flex", justifyContent: "center", gap: "2em" }}>
-          <Link to='/' style={{ textDecoration: "none", fontWeight: "bold", color: "#333" }}>
-            Home
-          </Link>
-          <Link to='/about' style={{ textDecoration: "none", fontWeight: "bold", color: "#333" }}>
-            About
-          </Link>
-        </nav>
-      </div>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path=':category' element={<Category />} />
-        <Route path=':category/:id' element={<Word />} />
-        <Route path='about' element={<About />} />
-        <Route path='*' element={<NotFound />} />
-      </Routes>
-    </Router>
+    <FluentProvider theme={webLightTheme}>
+      <Router>
+        <div style={{ background: "#f5f5f5", padding: "1em 0", marginBottom: "2em", boxShadow: "0 2px 4px rgba(0,0,0,0.05)" }}>
+          <nav style={{ display: "flex", justifyContent: "center", gap: "2em" }}>
+            <Link to='/' style={{ textDecoration: "none", fontWeight: "bold", color: "#333" }}>
+              Home
+            </Link>
+            <Link to='/about' style={{ textDecoration: "none", fontWeight: "bold", color: "#333" }}>
+              About
+            </Link>
+          </nav>
+        </div>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path=':category' element={<Category />} />
+          <Route path=':category/:id' element={<Word />} />
+          <Route path='about' element={<About />} />
+          <Route path='*' element={<NotFound />} />
+        </Routes>
+      </Router>
+    </FluentProvider>
   );
 }
 

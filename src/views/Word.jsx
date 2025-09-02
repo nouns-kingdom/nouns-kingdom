@@ -2,9 +2,11 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { FluentProvider, Button } from "@fluentui/react-components";
 import { NKHttpSvc } from "../services/httpService";
+import Horse from "../components/Horse";
 
 function Word() {
   const { category, id } = useParams();
+
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
   const [words, setWords] = useState({});
@@ -42,6 +44,30 @@ function Word() {
   };
   // const goBack = () => navigate(-1);
   // console.log(`/assets/${category}_${id}_with_words.png`);
+
+  if (id === "horse") {
+    return (
+      <>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <Button onClick={goPrev} disabled={currentIndex <= 0} style={{ marginRight: "1em" }}>
+            ←
+          </Button>
+          <Horse />
+          <Button onClick={goNext} disabled={currentIndex >= cardList.length - 1} style={{ marginLeft: "1em" }}>
+            →
+          </Button>
+        </div>
+        <div className='words-container'>
+          {Object.entries(words).map(([key, value]) => (
+            <div key={key} className='word-container'>
+              {value} : {key}
+            </div>
+          ))}
+        </div>
+      </>
+    );
+  }
+
   return (
     <FluentProvider>
       <div style={{ margin: "1em 0 2em 15%", display: "flex", alignItems: "center" }}>
