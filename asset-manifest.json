@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/nouns-kingdom/static/css/main.f37f4576.css",
-    "main.js": "/nouns-kingdom/static/js/main.1af03b9e.js",
+    "main.js": "/nouns-kingdom/static/js/main.2a46cc47.js",
     "index.html": "/nouns-kingdom/index.html",
     "main.f37f4576.css.map": "/nouns-kingdom/static/css/main.f37f4576.css.map",
-    "main.1af03b9e.js.map": "/nouns-kingdom/static/js/main.1af03b9e.js.map"
+    "main.2a46cc47.js.map": "/nouns-kingdom/static/js/main.2a46cc47.js.map"
   },
   "entrypoints": [
     "static/css/main.f37f4576.css",
-    "static/js/main.1af03b9e.js"
+    "static/js/main.2a46cc47.js"
   ]
 }
