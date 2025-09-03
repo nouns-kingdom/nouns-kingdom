@@ -95,7 +95,7 @@ function Word() {
         <span style={{ fontWeight: "bold" }}>{id}</span>
       </div>
       <h1 style={{ textAlign: "center", marginTop: "1em" }}>{id}</h1>
-      <div style={{ display: "block", alignItems: "center", justifyContent: "center", marginBottom: "2em" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", marginBottom: "2em" }}>
         {isLoading ? <div>Loading...</div> : <img src={`${process.env.PUBLIC_URL}/assets/${category}_${id}_with_words.png`} alt={id} />}
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", marginTop: "1em" }}>
           <Button appearance='primary' onClick={goPrev} disabled={currentIndex <= 0} style={{ marginRight: "1em" }}>
