@@ -48,7 +48,7 @@ function Word() {
   if (id === "horse") {
     return (
       <>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+        {/* <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
           <Button onClick={goPrev} disabled={currentIndex <= 0} style={{ marginRight: "1em" }}>
             ←
           </Button>
@@ -57,6 +57,19 @@ function Word() {
             →
           </Button>
         </div>
+        {window.screen.width < 800 ? null : ( */}
+        <div style={{ display: "block", alignItems: "center", justifyContent: "center", marginBottom: "2em" }}>
+          <Horse />
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "center", marginTop: "1em" }}>
+            <Button appearance='primary' onClick={goPrev} disabled={currentIndex <= 0} style={{ marginRight: "1em" }}>
+              ←
+            </Button>
+            <Button appearance='primary' onClick={goNext} disabled={currentIndex >= cardList.length - 1} style={{ marginLeft: "1em" }}>
+              →
+            </Button>
+          </div>
+        </div>
+        {/* )} */}
         <div className='words-container'>
           {Object.entries(words).map(([key, value]) => (
             <div key={key} className='word-container'>
@@ -82,14 +95,16 @@ function Word() {
         <span style={{ fontWeight: "bold" }}>{id}</span>
       </div>
       <h1 style={{ textAlign: "center", marginTop: "1em" }}>{id}</h1>
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-        <Button onClick={goPrev} disabled={currentIndex <= 0} style={{ marginRight: "1em" }}>
-          ←
-        </Button>
+      <div style={{ display: "block", alignItems: "center", justifyContent: "center", marginBottom: "2em" }}>
         {isLoading ? <div>Loading...</div> : <img src={`${process.env.PUBLIC_URL}/assets/${category}_${id}_with_words.png`} alt={id} />}
-        <Button onClick={goNext} disabled={currentIndex >= cardList.length - 1} style={{ marginLeft: "1em" }}>
-          →
-        </Button>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", marginTop: "1em" }}>
+          <Button appearance='primary' onClick={goPrev} disabled={currentIndex <= 0} style={{ marginRight: "1em" }}>
+            ←
+          </Button>
+          <Button appearance='primary' onClick={goNext} disabled={currentIndex >= cardList.length - 1} style={{ marginLeft: "1em" }}>
+            →
+          </Button>
+        </div>
       </div>
       <div className='words-container'>
         {Object.entries(words).map(([key, value]) => (
